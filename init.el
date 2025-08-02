@@ -53,17 +53,20 @@
   (package-initialize)
   
   ;; Start benchmarking and garbage collector early
-  
   (require 'freemacs-benchmark-init)
   (require 'freemacs-gcmh)
   
-  ;; Load modules from modules directory.
-  ;;;; Correct ordering is critical.
-
+  ;; Load helper lisp functions
   (require 'freemacs-elisp)
-  (require 'freemacs-portable)
+  ;;(require 'freemacs-portable)
+
+  ;; Keep Emacs package files organized
   (require 'freemacs-no-littering)
+
+  ;; Need `trapt-exec-find' loaded before use
   (require 'freemacs-trapt)
+
+  ;; Load remaining packages
   (require 'freemacs-auctex)
   (require 'freemacs-aggressive-indent)
   (require 'freemacs-autohotkey)
@@ -78,6 +81,7 @@
   (require 'freemacs-drsync)
   (require 'freemacs-docker)
   (require 'freemacs-defaults)
+  (require 'freemacs-disk-usage)
   (require 'freemacs-eat)
   (require 'freemacs-electric-pair)
   (require 'freemacs-elfeed)
@@ -118,7 +122,7 @@
   (require 'freemacs-package-lint)
   (require 'freemacs-paren)
   (require 'freemacs-pdf)
-  (require 'freemacs-popper)
+  ;;(require 'freemacs-popper)
   (require 'freemacs-plantuml)
   (require 'freemacs-prog-mode)
   (require 'freemacs-recentf)

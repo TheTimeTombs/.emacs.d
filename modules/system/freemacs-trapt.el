@@ -19,7 +19,6 @@
   :init
   (require 'trapt-exec-find)
   :custom
-  (trapt-remotes '("thomas@192.168.1.253"))
   (trapt-shell "vterm")
   :commands
   (trapt trapt-exec-find-report)

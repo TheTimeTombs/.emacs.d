@@ -71,7 +71,6 @@
   (require 'freemacs-calfw)
   (require 'freemacs-c-mode)
   (require 'freemacs-cape)
-  (require 'freemacs-clemav)
   (require 'freemacs-consult)
   (require 'freemacs-corfu)
   (require 'freemacs-completion-preview)

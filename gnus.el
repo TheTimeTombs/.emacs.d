@@ -22,11 +22,11 @@
                 (nnimap-stream ssl)
                 (nnmail-expiry-target "nnimap+gmail:[Gmail]/Trash")
                 (nnmail-expiry-wait 'immediate))
-        (nnimap "albion"
+        (nnimap "college"
                 (nnimap-address "imap.gmail.com")
                 (nnimap-server-port 993)
                 (nnimap-stream ssl)
-                (nnmail-expiry-target "nnimap+albion:[Gmail]/Trash")
+                (nnmail-expiry-target "nnimap+college:[Gmail]/Trash")
                 (nnmail-expiry-wait 'immediate))))
 
 ;; Show Gmail Folders

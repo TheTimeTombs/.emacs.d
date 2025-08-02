@@ -58,7 +58,6 @@
   
   ;; Load helper lisp functions
   (require 'freemacs-elisp)
-  ;;(require 'freemacs-portable)
 
   ;; Keep Emacs package files organized
   (require 'freemacs-no-littering)
@@ -117,7 +116,7 @@
   (require 'freemacs-minimap)
   (require 'freemacs-org-mm)
   (require 'freemacs-org-ql)
-  (require 'freemacs-orgsl)
+  ;;(require 'freemacs-orgsl)
   (require 'freemacs-ox-publish)
   (require 'freemacs-package-lint)
   (require 'freemacs-paren)
@@ -129,7 +128,7 @@
   (require 'freemacs-rainbow-delimiters)
   (require 'freemacs-rh)
   (require 'freemacs-savehist)
-  (require 'freemacs-shelly)
+  ;;(require 'freemacs-shelly)
   (require 'freemacs-sly)
   (require 'freemacs-speed-type)
   (require 'freemacs-topsy)
@@ -144,7 +143,7 @@
   (require 'freemacs-yasnippet)
   (require 'freemacs-gif-screencast)
   (require 'freemacs-server)
-  
+
   ;; Local machine configuration
   (when (file-exists-p "~/.emacs.d/freemacs-local.el")
     (require 'freemacs-local)))

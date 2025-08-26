@@ -5,6 +5,6 @@
   (unless (server-running-p)
     (server-start)))
 
-  (provide 'freemacs-server)
+(provide 'freemacs-server)
 
 ;;; freemacs-server.el ends here.

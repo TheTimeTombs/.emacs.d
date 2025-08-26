@@ -142,10 +142,11 @@
   (require 'freemacs-winner)
   (require 'freemacs-yasnippet)
   (require 'freemacs-gif-screencast)
-  (require 'freemacs-server)
+  (require 'freemacs-server))
 
-  ;; Local machine configuration
-  (when (file-exists-p "~/.emacs.d/freemacs-local.el")
-    (require 'freemacs-local)))
+;; Local machine configuration
+(when (file-exists-p "~/.emacs.d/freemacs-local.el")
+  (load-file "~/.emacs.d/freemacs-local.el"))
 
 ;;; init.el ends here
+(put 'downcase-region 'disabled nil)

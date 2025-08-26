@@ -8,30 +8,29 @@
  '(org-safe-remote-resources
    '("\\`https://tfree87\\.github\\.io/org-html-themes/org/theme-readtheorg\\.setup\\'"))
  '(package-selected-packages
-   '(academic-phrases aggressive-indent ahk-mode async async-await benchmark-init
-                      bleachbit bufler bui calfw calfw-org cape casual
-                      citar-embark clemav consult-dir consult-notes
-                      consult-yasnippet corfu dired-open dired-rsync-transient
-                      disk-usage docker doom-modeline doom-themes eat
-                      elfeed-protocol embark-consult eshell-toggle fireplace
-                      fish-competion fish-completion gcmh gif-screencast gnuplot
-                      go-mode helpful htmlize indent-bars ini jinx ledger-mode
-                      listen magit marginalia markdown-mode meow minimap
-                      mixed-pitch multi-vterm nerd-icons-completion
-                      nerd-icons-corfu nerd-icons-dired no-littering nyan-mode
-                      orderless org-contacts org-contrib org-mime org-mind-map
-                      org-ql org-super-links package-lint pdf-tools
-                      plantuml-mode popper rainbow-delimiters repeat-help shelly
-                      skeletor sly spacious-padding speed-type topsy trapt
-                      trashed vertico yasnippet-snippets zone-nyan))
+   '(aggressive-indent ahk-mode async async-await benchmark-init bleachbit bui
+                       calfw calfw-org cape consult-dir consult-notes
+                       consult-yasnippet corfu dired-open dired-rsync-transient
+                       disk-usage docker docker-compose-mode dockerfile-mode
+                       doom-modeline doom-themes eat elfeed-protocol
+                       embark-consult eshell-toggle fireplace fish-completion
+                       gcmh gif-screencast gnuplot go-mode helpful htmlize
+                       indent-bars jinx ledger-mode magit marginalia
+                       markdown-mode meow minimap mixed-pitch multi-vterm
+                       nerd-icons-completion nerd-icons-corfu nerd-icons-dired
+                       no-littering nyan-mode orderless org-contacts org-contrib
+                       org-mime org-mind-map org-ql package-lint pdf-tools
+                       plantuml-mode rainbow-delimiters repeat-help sly
+                       spacious-padding speed-type topsy trapt trashed vertico
+                       yasnippet-snippets))
  '(package-vc-selected-packages
-   '((trapt :url "https://github.com/TheTimeTombs/TrAPT" :branch "main")
-     (bleachbit :url "https://github.com/TheTimeTombs/emacs-bleachbit" :branch
+   '((bleachbit :url "https://github.com/TheTimeTombs/emacs-bleachbit" :branch
                 "main")
+     (trapt :url "https://github.com/TheTimeTombs/TrAPT" :branch "main")
+     (gcmh :url "https://gitlab.com/koral/gcmh" :branch "master")
      (shelly :url "https://github.com/TheTimeTombs/shelly" :branch "main")
      (org-super-links :url "https://github.com/toshism/org-super-links/" :branch
-                      "master")
-     (gcmh :url "https://gitlab.com/koral/gcmh" :branch "master")))
+                      "master")))
  '(safe-local-variable-values
    '((eval add-hook 'after-save-hook (lambda nil (org-babel-tangle)) nil t)))
  '(send-mail-function 'smtpmail-send-it)
